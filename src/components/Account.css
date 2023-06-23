@@ -1,0 +1,121 @@
+/* LoginPage.css */
+
+a {
+    color: black;
+  }
+  
+  .box:hover {
+    box-shadow: 0 0 21px rgba(33, 33, 33, .2);
+  }
+  
+  a:hover {
+    color: grey !important;
+  }
+  
+  .heading {
+    margin-top: 180px;
+  }
+  
+  .heading_in4 {
+    padding: 1%;
+    width: 25vw;
+    margin: 0% 37% 0% 37%;
+  }
+  
+  .heading14:hover {
+    display: none;
+  }
+  
+  .heading14 {
+    font-size: 70px;
+    width: 100%;
+    text-align: center;
+  }
+  
+  .heading24 {
+    font-size: 70px;
+    width: 100%;
+    text-align: center;
+    display: none;
+  }
+  
+  .heading14:hover ~ .hidden_log .heading24 {
+    display: block;
+  }
+  
+  .login {
+    padding: 0% 1% 1% 1%;
+    text-align: center;
+    margin: 0% 30% 0% 32%;
+  }
+  
+  .login_in {
+    background-color: #2D4059;
+    height: 65vh;
+    width: 33vw;
+    border-radius: 10px;
+    padding: 7%;
+  }
+  
+  .email {
+    font-size: 20px;
+    margin: 8% 0% 5% 0%;
+    text-align: start;
+    color: white;
+  }
+  
+  .password {
+    font-size: 20px;
+    margin: 10% 0% 5% 0%;
+    text-align: start;
+    color: white;
+  }
+  
+  form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 5%;
+  }
+  
+  label {
+    display: block;
+    margin-bottom: 5px;
+  }
+  
+  input[type="email"],
+  input[type="password"] {
+    width: 350px;
+    padding: 8px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+  }
+  
+  .button_log {
+    padding: 10px 20px;
+    background-color: #FFF3E4;
+    color: black;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    margin: 5% 0% 5% 0%;
+  }
+  
+  .button_log:hover {
+    background-color: #6B4F4F;
+    color: #000;
+  }
+  
+  .p_log {
+    font-size: 16px;
+    margin: 3%;
+    color: white;
+  }
+  
+  .a_log {
+    color: green;
+  }
+  
+  .log_suc{
+    color: white;
+  }

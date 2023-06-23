@@ -1,0 +1,304 @@
+* {
+    overflow-x: hidden;
+    padding: 0;
+    margin: 0;
+    font-family: 'Manrope', sans-serif;
+    font-family: 'Poppins', sans-serif;
+    font-family: 'Space Grotesk', sans-serif;
+    text-decoration: none;
+
+}
+.box2:hover{
+    box-shadow: 0 0 21px rgba(33,33,33,.2);
+}
+
+
+.discover2 {
+    color: black;
+}
+
+.discover2:hover {
+    color: grey !important;
+}
+/* till hare nav br css */
+
+.flex_in{
+    display: flex;
+    flex-direction: row;
+    width: 17vw;
+    /* row-gap: 3%; */
+    /* gap: 1%; */
+    justify-content: space-between;
+}
+.heading2 {
+    margin-top: 180px;
+
+
+}
+
+.heading_in2 {
+    padding: 1%;
+}
+
+.heading12{
+    font-size: 200px;
+    width: 100%;
+    align-content: center;
+    text-align: center;
+}
+
+/* bestseller author part */
+
+.middle12 {
+    padding: 1%;
+    height: 100vh;
+}
+
+.image12 {
+    background-color: black;
+    height: inherit;
+}
+
+
+.middle22 {
+    padding: 1%;
+
+}
+
+.middle2_in2 {
+        display: flex;
+        position: relative;
+        /* gap: 1%; */
+        flex-wrap: wrap;
+        /* height: 40vh; */
+        flex: 25%;
+        justify-content: space-between;
+
+}
+.h3_tag2{
+    /* outline: 1px solid #3e5e85!important; */
+    font-size: 21px;
+    text-align: center;
+}
+.box12 {
+    background-color: black;
+    width: 24.5%;
+    /* background-image: url(image1.png); */
+    padding: 2%;
+
+    font-size: 15px;
+    text-align: center;
+}
+
+.box22 {
+    background-color: white;
+    border-color: black;
+    width: 24%;
+}
+
+
+.box32 {
+    background-color: black;
+    width: 24%;
+}
+
+.box42 {
+    background-color: black;
+    width: 24%;
+}
+.heading622{
+    padding: 3%;
+    width: 16vw;
+    margin: 3% 5% 5% 18%;
+    font-size: 35px;
+    text-align: start;
+}
+.heading62{
+    padding: 3%;
+    width: 16vw;
+    margin: 7% 5% 5% 18%;
+    font-size: 35px;
+    text-align: center;
+}
+.anchor12{
+    /* padding: 5%; */
+    /* margin: 13% 0% 7% 7%; */
+    /* width: 10vw; */
+    text-align: center;
+}
+.anchor22{
+    /* padding: 5%; */
+    /* margin: 13% 0% 7% 7%; */
+    /* width: 10vw; */
+    text-align: center;
+}
+
+.inbox12{
+    display: flex;
+    flex-direction: row;
+    gap: 0%;
+    width: 14vw;
+    margin: 10% 4% 0% 19%;
+    justify-content: space-between;
+}
+.para12{
+    text-align: center;
+    /* padding: 0% 1% 1% 1%;s */
+    margin: 0% 4% 0% 5%;
+    width: 20vw;
+    
+
+}
+
+/* next part */
+/* .middle42_in2 {
+    display: flex;
+    position: relative;
+    gap: 1%;
+    flex-wrap: wrap;
+    height: 40vh;
+    padding: 1%;
+    flex: 25%;
+    justify-content: space-between;
+
+}
+
+.box5_42 {
+    background-color: black;
+    width: 24%;
+}
+
+.box6_42 {
+    background-color: black;
+    border-color: black;
+    width: 24%;
+}
+
+.box7_42 {
+    background-color: black;
+    width: 24%;
+}
+
+.box8_42 {
+    background-color: black;
+    width: 24%;
+}
+.heading72{
+    padding: 2%;
+    width: 15vw;
+ font-size: 35px;
+
+    margin: 30% 4% 0% 20%;
+}
+.para52{
+    margin: 1% 0% 3% 25%;
+} */
+
+/* .bottom2{
+    padding: 1% ;
+     height: 80vh; 
+}
+
+.bottom_in{
+    background-color: black;
+    height: 80vh;
+    display: flex;
+    flex-direction: row;
+    gap: 3%;
+    flex: 50%;
+    font-size: 20px;
+}
+.menu{
+width: 48vw;
+margin: 5% 0% 5% 8%;
+text-align: center;
+}
+.support{
+    width: 48vw;
+    text-align: center;
+    margin: 5% 8% 5% 0%;
+
+} */
+
+.box2 {
+    position: relative;
+    overflow: hidden;
+    
+  }
+
+  .book2{
+    padding: 0%;
+    margin: 0% 5% 0% 5%;
+    width: 18vw;
+    height: 42vh;
+
+
+}
+.book02{
+    padding: 0%;
+    margin: 8% 5% 0% 13%;
+    width: 18vw;
+    height: 42vh;
+
+
+}
+.book02:hover img {
+    transform: scale(1.1);
+  }
+
+  .book2:hover img {
+    transform: scale(1.1);
+  }
+  .hide_in2{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    
+    width: 22vw;
+
+
+}
+  .hide2 {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.7);
+    color: #fff;
+    opacity: 0;
+    transition: opacity 0.3s;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    padding: 5px;
+    row-gap: 1vw;
+  }
+
+  .box2:hover .hide2 {
+    opacity: 1;
+  }
+
+  .hide2 p {
+    margin: 2%;
+    font-size: 16px;
+  }
+
+  .hide2 .discover2 {
+    display: inline-block;
+    margin-top: 10px;
+    padding: 10px 20px;
+    background-color: #fff;
+    color: #000;
+    text-decoration: none;
+    font-weight: bold;
+    border-radius: 4px;
+    transition: background-color 0.3s;
+  }
+
+  .hide2 .discover2:hover {
+    background-color: #000;
+    color: #fff;
+  }

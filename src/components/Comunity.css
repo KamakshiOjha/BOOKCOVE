@@ -1,0 +1,62 @@
+*{
+    font-family: 'Manrope', sans-serif;
+    font-family: 'Space Grotesk', sans-serif;
+    margin: 0%;
+    padding: 0%;
+}
+
+.container_community {
+    position: relative;
+    width: 100%;
+    height: 100vh;
+
+    width: 100%;
+    text-align: center;
+}
+.contain_bg {
+    background-image: url("/Users/kamakshiojha/Documents/web development/BOOKSHOP/src/components/image2.png");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: inherit;
+}
+.trans_bg {
+    position: relative;
+    top: 55%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background-color: beige;
+    border-radius: 24px;
+    padding: 5%;
+    height: max-content;
+    margin: 0% 5% 5% 0%;
+}
+.h2_tag3 {
+    font-size: 18px;
+    color: black;
+}
+.h5_tag1{
+    font-size: 18px;
+    padding: 2% 0%;
+    color: black;
+  }
+  .button4{
+    background-color: black;
+    color: white;
+    opacity: 100%;
+    border: 0px;
+    height: 50px;
+    font-size: 18px;
+    border-radius: 20px;
+    width: 300px;
+  }
+
+
+/*
+
+.text_descp{
+    display: flex;
+    flex-direction: column;
+    position: relative;
+}
+*/

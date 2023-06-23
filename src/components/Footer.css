@@ -1,0 +1,47 @@
+
+.bottom{
+    padding: 1% ;
+    /* height: 80vh; */
+}
+
+.bottom_in{
+    background-color: #B68973;
+    height: 80vh;
+    display: flex;
+    flex-direction: row;
+    gap: 3%;
+    flex: 50%;
+    font-size: 20px;
+}
+.menu{
+width: 48vw;
+margin: 5% 0% 5% 8%;
+text-align: center;
+}
+.support{
+    width: 48vw;
+    text-align: center;
+    margin: 5% 8% 5% 0%;
+
+}
+
+.heading_f {
+    /* margin-top: 180px; */
+    margin-left: 0%;
+  
+  
+  }
+
+  .heading_in_f {
+    padding: 1%;
+    position: relative;
+  }
+  
+  .heading1_f {
+    font-size: 200px;
+    width: 100%;
+    align-content: center;
+    margin-top: 0%;
+    text-align: center;
+  }
+  

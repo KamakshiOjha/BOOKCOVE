@@ -1,0 +1,193 @@
+.middle17 {
+    padding: 0% 1% 0% 1%;
+    height: 40vh;
+}
+
+.image17 {
+    background-image: url("./About_images/about2.jpg");
+    height: inherit;
+    background-position: center;
+    border-radius:10px ;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: inherit;
+    position: relative;
+}
+
+.heading7 {
+    margin-top: 180px;
+
+  }
+  
+  .heading_in7 {
+    padding: 1%;
+    width: 27vw;
+    margin: 0% 37% 0% 37% ;
+  }
+  
+  .heading17:hover {
+    display: none;
+  }
+  
+  .heading17 {
+    font-size: 70px;
+    width: 100%;
+    text-align: center;
+  }
+  
+  .heading27 {
+    font-size: 70px;
+    width: 100%;
+    text-align: center;
+    display: none;
+  }
+  
+  .heading17:hover ~ .hidden_log7 .heading27 {
+    display: block;
+  }
+  
+.container {
+        display: flex;
+        align-items: center;
+        height: 55vh;
+        gap: 10%;
+        justify-content: flex-start;
+        margin: 2% 5% 0% 8%;
+
+  }
+  .list {
+    list-style-type: disc !important;
+  }
+  .circle {
+    width: 300px;
+    height: 300px;
+    border-radius: 50%;
+    background-image: url("./About_images/about1.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0% 0% 0% 2%;
+  }
+  .circle:hover {
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.3);
+  }
+  
+  .name {
+    font-size: 24px;
+    font-weight: bold;
+    color: #000;
+  }
+  .content1{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    width: 50%;
+    margin: 0% 0% 0% 9%;
+  }
+  .h2_tag03{
+    margin: 0% 0% 2% 0%;
+    overflow-y: hidden;
+    font-size: 30px;
+  }
+  .para03{
+    margin: 0% 0% 2% 0%;
+  }
+
+
+.circle1 {
+    width: 300px;
+    height: 300px;
+    border-radius: 50%;
+    background-image: url("./About_images/about3.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    transition: transform 0.3s;
+  }
+  
+  .circle1:hover {
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.3);
+  }
+  ul .list {
+    list-style-type: circle !important;
+  }
+  .circle2{
+    width: 300px;
+    height: 300px;
+    border-radius: 50%;
+    background-image: url("./About_images/about4.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    transition: transform 0.3s;
+  }
+  
+  .circle2:hover {
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.3);
+  }
+  .circle3 {
+    width: 300px;
+    height: 300px;
+    border-radius: 50%;
+    background-image:url("./About_images/about5.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    transition: transform 0.3s;
+  }
+  
+  .circle3:hover {
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.3);
+  }
+  .h2_tag02{
+    margin: 10% 7% 5% 7%;
+    font-size: 37px;
+    text-align: center;
+    padding: 0%;
+    overflow-y: hidden;
+  }
+  .Heading7_a{
+    text-align: center;
+    height: 40vh;
+    background-color: #4F709C;
+    margin: 1%;
+    padding: 5% ; 
+    overflow-y: hidden;
+  }
+  .h3_tag_a{
+    overflow-y: hidden;
+    color: white;
+  }
+  .heading_in7_a{
+    
+  }
+  .review-button {
+    display: inline-block;
+    padding: 10px 20px;
+    margin: 2% 0% 0% 0%;
+    background-color: #fff;
+    color:#000 ;
+    text-decoration: none;
+    border-radius: 4px;
+  }
+  
+  .review-button:hover {
+    background-color: #000;
+    color: #fff;
+  }
