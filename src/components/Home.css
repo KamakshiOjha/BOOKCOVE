@@ -129,10 +129,12 @@ padding: 0% 1% 0% 1%;
 
 }
 .image3 {
-  background-color: rgb(204, 204, 204);
+  background-image: url('./Home_images/new_lanch2.jpg');
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
   height: inherit;
-  display: flex;
-  flex-direction: column;
+  position: relative;
   
 
 
@@ -307,24 +309,19 @@ padding: 2%;
 }
 .middle5 {
   padding: 0% 1% 0% 1%;
-  height: 80vh;
+  height: 95vh;
 
 }
 
-.image3 {
-  background-color: rgb(204, 204, 204);
-  height: inherit;
-  display: flex;
-  flex-direction: column;
 
-}
 .heading4{
 
-  padding: 2%;
+  padding: 1%;
   width: 25vw;
-  font-size: 40px;
-  text-align: center;
-  margin: 0% 4% 0% 2%;
+  font-size: 60px;
+  text-align: start;
+  margin: 2% 0% 0% 5%;
+  overflow-y:hidden ;
 
 
 }
@@ -350,10 +347,10 @@ padding: 2%;
   justify-content: space-between;
 }
 .para2{
-  text-align: center;
-  padding: 0% 1% 1% 1%;
-  margin: 0% 4% 0% 2%;
-  width: 20vw;
+  text-align: start;
+  padding: 1%;
+  margin: 0% 0% 1% 5%;
+  width: 30vw;
   
 
 }
@@ -516,3 +513,7 @@ text-align: center;
       
   }
 } */
+
+.Link{
+  color: white;
+}

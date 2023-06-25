@@ -1,6 +1,6 @@
 import React from 'react'
 import 'bootstrap/dist/css/bootstrap.css';
-import PropTypes from 'prop-types'
+// import PropTypes from 'prop-types'
 import { Link } from 'react-router-dom';
 // import axios from 'axios';
 import './Navbar.css';
@@ -35,20 +35,20 @@ export default function Navbar(props) {
                 <ul class="ul">
                     <li><Link to="/bestseler">Best Seller</Link></li>
                     <li><Link to="/category">Category</Link></li>
-                    {/* <!-- <li><Link to="">All Books</Link></li> --> */}
+                    {/* <li><Link to="">All Books</Link></li>  */}
                     <li><Link to="">Author's </Link></li>
                     <li><Link to="/joinclub">Join Club</Link></li>
-                    {/* <!-- <li><Link to="">Audio Book</Link></li> --> */}
+                    {/* <li><Link to="">Audio Book</Link></li> */}
                     <li><Link to="/about">About Us</Link></li>
                 </ul>
 
             </div>
             <div class="nav_right">
                 <ul class="ul">
-                <li><Link to="/">Local Treasure</Link></li>
+                <li><Link to="/localtreasure">Local Treasure</Link></li>
                     <li><Link to="/account">Account</Link></li>
                     <li><Link to="">Wishlist</Link></li>
-                    {/* <!-- <li><Link to="">Special For You</Link></li> --> */}
+                    <li><Link to="">Special For You</Link></li> 
                     <li><Link to="/cart">Cart</Link></li>
                 </ul>
 

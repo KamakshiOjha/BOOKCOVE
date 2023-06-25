@@ -1,0 +1,148 @@
+.heading7_l {
+
+  }
+  
+  .heading_in7_l {
+    padding: 1%;
+    width: 47vw;
+    margin: 0% 27% 0% 27% ;
+  }
+  
+  .heading17_l:hover {
+    display: none;
+  }
+  
+  .heading17_l {
+    font-size: 70px;
+    width: 100%;
+    text-align: center;
+  }
+  
+  .heading27_l {
+    font-size: 70px;
+    width: 100%;
+    text-align: center;
+    display: none;
+  }
+  
+  .heading17_l:hover ~ .hidden_log7_l .heading27_l {
+    display: block;
+  }
+  
+.local_write{
+    text-align: center;
+    margin: 2% 5% 3% 5%;
+}
+.h2_local{
+    margin: 4% 0% 0% 0%;
+    overflow-y: hidden;
+}
+.title {
+    font-size: 24px;
+    text-align: center;
+    margin-bottom: 20px;
+  }
+  
+  .form-container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 20px;
+    margin: 4% 0% 1% 0%;
+
+  }
+  .whole_local{
+    background-color: #2D4059;
+    margin: 0% 28% 0% 28%;
+    height: 86vh;
+    border-radius: 19px;
+  }
+  .input-field {
+    padding: 5px;
+    margin-right: 10px;
+  }
+  .input_field_1 {
+    padding: 5px;
+    margin: 1% 0% 1% 0%;
+    width: 23vw;
+  }
+  .button_log_l {
+    padding: 10px 20px;
+    background-color: #FFF3E4;
+    color: black;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    margin: 5% 0% 5% 0%;
+  }
+  
+  .button_log_l:hover {
+    background-color: #6B4F4F;
+    color: #000;
+  }
+  .add-button {
+    padding: 5px 10px;
+    background-color: #2196f3;
+    color: #fff;
+    border: none;
+    cursor: pointer;
+  }
+  
+  .book-list {
+    list-style: none;
+    padding: 2%;
+    display: flex;
+    flex-direction: row;
+  }
+  
+  .book-list li {
+    display: flex;
+    align-items: center;
+    margin-bottom: 10px;
+  }
+  
+  .book-list li button {
+    margin-left: 10px;
+    padding: 3px 8px;
+    background-color: #FFF3E4;
+    color: black;
+    border: none;
+    cursor: pointer;
+  }
+  
+  .join-request-form {
+    margin-top: 20px;
+  }
+  
+  .join-request-form h2 {
+    font-size: 20px;
+    margin-bottom: 10px;
+  }
+  
+  .join-request-form form {
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .join-request-form .input-field {
+    margin-bottom: 10px;
+    padding: 5px;
+  }
+  
+  .join-request-form textarea {
+    margin-bottom: 10px;
+    padding: 5px;
+    height: 100px;
+  }
+  
+  .join-request-form .submit-button {
+    padding: 5px 10px;
+    background-color: #2196f3;
+    color: #fff;
+    border: none;
+    cursor: pointer;
+  }
+  .request{
+    text-align: center;
+    margin: 1%;
+  }

@@ -51,6 +51,7 @@ function ReviewBlock() {
             value={customerName}
             onChange={handleCustomerNameChange}
             required
+            placeholder="your name"
           />
         </div>
         <div>
@@ -60,6 +61,7 @@ function ReviewBlock() {
             value={reviewText}
             onChange={handleReviewTextChange}
             required
+            placeholder="write text"
           />
         </div>
         <div>

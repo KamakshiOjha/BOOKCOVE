@@ -64,12 +64,24 @@ function CartPage() {
   };
 
   return (
+    <>
+    <div className="Heading7_c">
+        <div className="heading_in7_c">
+          <p className="heading17_c">
+            <Link to="">CART</Link>
+          </p>
+          {/* <div className="hidden_log7_c">
+            <p className="heading27_c">
+              <Link to="/">BOOKCOVE</Link>
+            </p>
+          </div> */}
+        </div>
+      </div>
     <div className="cart-page">
-      <h1>Shopping Cart</h1>
       <form onSubmit={handleSubmit}>
         <div>
-          <label htmlFor="paymentMethod">Payment Method:</label>
-          <select
+          <label className="paymentMethod" htmlFor="paymentMethod">Payment Method:</label>
+          <select className ='select'
             id="paymentMethod"
             value={paymentMethod}
             onChange={handlePaymentMethodChange}
@@ -82,8 +94,9 @@ function CartPage() {
           </select>
         </div>
         <div>
-          <label htmlFor="address">Shipping Address:</label>
-          <input
+          <label className="address" htmlFor="address">Shipping Address:</label>
+          <input 
+          className='select'
             type="text"
             id="address"
             value={address}
@@ -91,11 +104,12 @@ function CartPage() {
             required
           />
         </div>
-        <h2>Items in Cart:</h2>
+        <h3>Items in Cart:</h3>
         {showItemsInCart()}
-        <button type="submit"><Link to='/pay'>Place Order</Link> </button>
+        <button type="submit" className="submit"><Link to='/pay'>Place Order</Link> </button>
       </form>
     </div>
+    </>
   );
 }
 

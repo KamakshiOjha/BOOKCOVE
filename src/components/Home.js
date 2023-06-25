@@ -28,7 +28,7 @@ export default function Home()  {
                 <img className="book2" src={require("./Bestseller/book1.png")} alt=""/>
                 <div className="hide2">
                 <div className="hide_in2">
-                    <p className="para1_b2"><h3 className="h3_tag2">Outlive: The Science and Art of Longevity</h3></p>
+                    <p className="para1_b2"><h3 className="h3_tag2"><Link className='Link' to='/outliveb1'>Outlive: The Science and Art of Longevity</Link></h3></p>
                     <p className="para2_b2">₹1555.50</p>
                 </div>
                 <p>by Peter Attia</p>
@@ -57,7 +57,7 @@ export default function Home()  {
                 <img className="book02" src={require("./Bestseller/book2.png")}  alt=""/>
                 <div className="hide2">
                 <div className="hide_in2">
-                    <p className="para1_b2"><h3 className="h3_tag2">It Starts with Us</h3> </p>
+                    <p className="para1_b2"><h3 className="h3_tag2"><Link className='Link' to=''>It Starts with Us</Link></h3> </p>
                     <p className="para2_b2">₹859.25</p>
                 </div>
                 <p>by Colleen Hoover</p>
@@ -72,7 +72,7 @@ export default function Home()  {
                 <img className="book02" src={require("./Bestseller/book3.png")}  alt=""/>
                 <div className="hide2">
                 <div className="hide_in2">
-                    <p className="para1_b2"><h3 className="h3_tag2">It Ends with Us</h3> </p>
+                    <p className="para1_b2"><h3 className="h3_tag2"><Link className='Link' to=''>It Ends with Us</Link></h3> </p>
                     <p className="para2_b2">₹808.47</p>
                 </div>
                 <p>by Colleen Hoover</p>
@@ -189,23 +189,24 @@ export default function Home()  {
         </div>
     <div className="middle5">
         <div className="image3">
-
-            <div className="inbox2">
+        <div className='image2_in'>
+            {/* <div className="inbox2">
                 <div>
                     <Link className="anchor1" to="">←</Link>
                 </div>
                 <div>
                     <Link className="anchor2" to="">→</Link>
                 </div>
-            </div>
+            </div> */}
             <div>
-                <p className="heading4"><Link to="">NEW LAUNCHED</Link></p>
+                <p className="heading4"><Link to="/Launch_new">NEW LAUNCHED</Link></p>
             </div>
             <div className="para2">
-                <p><Link to="">Lorem ipsum dolor(1em)</Link></p>
-                <p><Link to="">Lorem ipsum dolor(1em)</Link></p>
-                <p><Link to="">Lorem ipsum dolor(1em)</Link></p>
+                <p>Explore captivating works by talented new authors and uncover curated bookstore gems.</p>
+                <p>Join us on this literary journey of discovery and support local talent and independent bookstores.</p>
+                <p>Experience the magic of fresh voices and hidden treasures at BookCove today!</p>
 
+            </div>
             </div>
     
         </div>

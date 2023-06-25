@@ -58,6 +58,7 @@
     width: 33vw;
     border-radius: 10px;
     padding: 7%;
+    overflow-y: hidden;
   }
   
   /* .review-block textarea {
@@ -80,8 +81,8 @@
   }
   
   .review-block button {
-    background-color: #4caf50;
-    color: white;
+    background-color: #FFF3E4;
+    color: black;
     padding: 10px 20px;
     border: none;
     border-radius: 5px;
@@ -90,7 +91,8 @@
   }
   
   .review-block button:hover {
-    background-color: #45a049;
+    background-color: #6B4F4F;
+    color: #000;
   }
   
   .review-block p.no-reviews {

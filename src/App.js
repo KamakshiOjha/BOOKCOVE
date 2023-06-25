@@ -1,11 +1,8 @@
 import './App.css';
-import Alert from './components/Alert';
 import Navbar from './components/Navbar';
-import TextForm from './components/TextForm';
 import About from './components/About';
 import { BrowserRouter as Router, Route, BrowserRouter, Routes} from 'react-router-dom';
 import Comunity from './components/Comunity';
-import Join from './components/Join';
 import Profile from './components/Profile';
 import Home from './components/Home';
 import Card from './components/Card';
@@ -18,6 +15,10 @@ import Footer from './components/Footer';
 import ReviewBlock from './components/Review';
 import CartPage from './components/Cart';
 import Biography from './components/category_pages/Biography';
+import LocalTreasuresPage from './components/Localtreasure';
+import PaymentPage from './components/Pay';
+import Outliveb1 from './components/Home_images/Outliveb1';
+import Launch_new from './components/Launch_new';
 
 
 
@@ -35,20 +36,18 @@ function App() {
     <Route path='/category' element={<Category/>}/>
     <Route path='/account' element={<Account/>}/>
     <Route path='/about' element={<About/>}/>
+    <Route path='/localtreasure' element={<LocalTreasuresPage/>}/>
     <Route path='/cart' element={<CartPage/>}/>
     <Route path='/review' element={<ReviewBlock/>}/>
     <Route path='/joinclub' element={<JoinClubPage/>}/>
     {/* <Route path='/cart' element={<CartProvider/>}/> */}
-    <Route path='/about' element={<About title= "About us"/>}/>
     <Route path='/' element={<Home />}/>
-
-    <Route path='/comunity' element={<Comunity title = "MEMBERS"/>}/>
-    <Route path='/join' element={<Join title = "CONTACT US" />}/>
-    <Route path='/profile' element={<Profile title = "MAGIC WORDS" />}/>
+    <Route path='/pay' element={<PaymentPage/>}/>
+    <Route path='/launch_new' element={<Launch_new/>}/>
     <Route path='/children_literature' element={<Childern_literature/>}/>
     <Route path='/biography' element={<Biography/>}/>
 
-    
+    <Route path='/outliveb1' element={<Outliveb1/>}/>
     </Routes>
     <Footer/>
     

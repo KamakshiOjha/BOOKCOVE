@@ -19,14 +19,7 @@
     display: block;
   }
   
-  select,
-  input[type="text"] {
-    width: 100%;
-    padding: 10px;
-    margin-bottom: 20px;
-    border: 1px solid #ccc;
-    border-radius: 4px;
-  }
+ 
   
   ul {
     list-style-type: none;
@@ -62,3 +55,87 @@
     background-color: #e0e0e0;
   }
    */
+
+   .heading7_c {
+
+   }
+   
+   .heading_in7_c {
+     padding: 1%;
+     width: 47vw;
+     margin: 0% 27% 0% 27% ;
+   }
+   
+   /* .heading17_c:hover {
+     display: none;
+   }
+    */
+   .heading17_c {
+     font-size: 70px;
+     width: 100%;
+     text-align: center;
+   }
+/*    
+   .heading27_c {
+     font-size: 70px;
+     width: 100%;
+     text-align: center;
+     display: none;
+   }
+   
+   .heading17_c:hover ~ .hidden_cog7_c .heading27_c {
+     display: block;
+   } */
+   .cart-page {
+    margin: 0% 30% 0% 30%;
+background-color: #EAB2A0;
+border-radius:30px ;
+
+  }
+   .paymentMethod{
+        font-size: 20px;
+        margin: 10% 0% 5% 0%;
+        text-align: start;
+        width: 20vw;
+   }
+         
+   .address{
+    font-size: 20px;
+    margin: 1% 0% 5% 0%;
+    text-align: start;
+    width: 20vw;
+    
+
+  }
+  /* select1,
+  input[type="text"] {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 20px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+  } */
+  .select{
+    
+        width: 100%;
+        padding: 10px;
+        margin-bottom: 20px;
+        border: 1px solid #ccc;
+        border-radius: 4px;
+      
+  }
+  .submit {
+    padding: 10px 20px;
+    background-color:#6B4F4F;
+    color: black;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    margin: 1% 0% 5% 0%;
+  }
+  
+  .submit:hover {
+    background-color:  #FFF3E4;
+    color: white;
+  }
+  

@@ -39,11 +39,11 @@ function LoginPage() {
             <form onSubmit={handleSubmit}>
                 <div className="form_group1">
                   <label className="email" htmlFor="email">Email</label>
-                  <input type="email" value={email} onChange={(e) => setEmail(e.target.value)}required/>
+                  <input type="email" value={email} onChange={(e) => setEmail(e.target.value)}required placeholder="Email"/>
                 </div>
                 <div className="form_group2">
                   <label htmlFor="password" className="password">Password</label>
-                  <input type="password" value={password} onChange={(e) => setPassword(e.target.value)}required/>
+                  <input type="password" value={password} onChange={(e) => setPassword(e.target.value)}required placeholder="password"/>
                 </div>
                 <button className="button_log" type="submit">Login</button>
               </form>
@@ -52,6 +52,7 @@ function LoginPage() {
 
         </div>
     </div>
+
     </>
   );
 }

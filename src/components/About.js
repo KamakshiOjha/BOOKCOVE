@@ -62,7 +62,7 @@ export default function About(props) {
       <div className="container">
         <div className="content1">
             <h2 className="h2_tag03">GET INVOLVED</h2>
-            <p className="para03">We encourage you to be an active part of the Book Cove community:</p>
+            <p className="para03">We encourage you to be an active part of the BookCove community:</p>
             <ul className="list">
                 <li>Sign up for a free account to unlock additional features and personalize your Book Cove experience.</li>
                 <li>Share your book reviews and recommendations to help others discover great reads.</li>
@@ -76,7 +76,7 @@ export default function About(props) {
           </div>
       </div>
  
-      <h2 className="h2_tag02">Thank you for choosing Book Cove as your literary companion. Start exploring, immerse yourself in captivating stories, and let the magic of books transport you to new worlds!</h2>
+      <h2 className="h2_tag02">Thank you for choosing BookCove as your literary companion. Start exploring, immerse yourself in captivating stories, and let the magic of books transport you to new worlds!</h2>
       
       <div className="Heading7_a">
         <div className="heading_in7_a">
