@@ -48,7 +48,7 @@ export default function Navbar(props) {
                 <li><Link to="/localtreasure">Local Treasure</Link></li>
                     <li><Link to="/account">Account</Link></li>
                     <li><Link to="">Wishlist</Link></li>
-                    <li><Link to="">Special For You</Link></li> 
+                    {/* <li><Link to="">Special For You</Link></li>  */}
                     <li><Link to="/cart">Cart</Link></li>
                 </ul>
 

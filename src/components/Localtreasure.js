@@ -20,8 +20,10 @@ const LocalTreasuresPage = () => {
   };
 
   const handleRemoveBook = (book) => {
+    
     const updatedBooks = books.filter((b) => b !== book);
     setBooks(updatedBooks);
+    
   };
 
   const handleJoinRequest = (e) => {
@@ -130,7 +132,7 @@ const LocalTreasuresPage = () => {
               placeholder="Enter phone number"
               required
             />
-            <button type="submit" className='button_log_l'>
+            <button type="submit" className='button_log_l' >
               Submit Request
             </button>
           </form>

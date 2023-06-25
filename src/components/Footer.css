@@ -6,7 +6,7 @@
 
 .bottom_in{
     background-color: #B68973;
-    height: 80vh;
+    height: 50vh;
     display: flex;
     flex-direction: row;
     gap: 3%;
@@ -45,3 +45,34 @@ text-align: center;
     text-align: center;
   }
   
+  .image_location{
+    width: 1.8vw;
+    height: 3.8vh;
+  }
+  .para_location{
+    font-size: 18px;
+  }
+  .Address_location{
+    display: flex;
+    flex-direction: row;
+    gap: 3%;
+    margin: 7% 0% 1% 24% ;
+  }
+  .email_location{
+    display: flex;
+    flex-direction: row;
+    gap: 3%;
+    margin: 2% 0% 1% 24% ;
+  }
+  .Address_location1{
+    display: flex;
+    flex-direction: row;
+    gap: 3%;
+    margin: 7% 0% 1% 29% ;
+  }
+  .email_location1{
+    display: flex;
+    flex-direction: row;
+    gap: 3%;
+    margin: 2% 0% 1% 29% ;
+  }

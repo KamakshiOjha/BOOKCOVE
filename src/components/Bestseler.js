@@ -16,7 +16,7 @@ export default function Bestseler() {
                 <img className="book2" src={require("./Bestseller/book1.png")} alt=""/>
                 <div className="hide2">
                 <div className="hide_in2">
-                    <p className="para1_b2"><h3 className="h3_tag2">Outlive: The Science and Art of Longevity</h3></p>
+                    <p className="para1_b2"><h3 className="h3_tag2"><Link className="h3_tag2" to='/outliveb1'>Outlive: The Science and Art of Longevity</Link></h3></p>
                     <p className="para2_b2">₹1555.50</p>
                 </div>
                 <p>by Peter Attia</p>

@@ -49,6 +49,7 @@
     justify-content: center;
     margin-bottom: 20px;
     margin: 4% 0% 1% 0%;
+    color: white;
 
   }
   .whole_local{
@@ -60,6 +61,7 @@
   .input-field {
     padding: 5px;
     margin-right: 10px;
+    
   }
   .input_field_1 {
     padding: 5px;
@@ -93,12 +95,17 @@
     padding: 2%;
     display: flex;
     flex-direction: row;
+    gap: 7%;
+    flex-wrap: wrap;
   }
   
   .book-list li {
     display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
     align-items: center;
     margin-bottom: 10px;
+    color: white;
   }
   
   .book-list li button {
@@ -146,3 +153,4 @@
     text-align: center;
     margin: 1%;
   }
+  
