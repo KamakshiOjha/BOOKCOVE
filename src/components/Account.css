@@ -55,6 +55,7 @@ a {
     width: 33vw;
     border-radius: 10px;
     padding: 7%;
+    overflow-y: hidden;
   }
   
   .email {

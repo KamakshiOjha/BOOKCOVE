@@ -2,10 +2,7 @@ import './App.css';
 import Navbar from './components/Navbar';
 import About from './components/About';
 import { BrowserRouter as Router, Route, BrowserRouter, Routes} from 'react-router-dom';
-import Comunity from './components/Comunity';
-import Profile from './components/Profile';
 import Home from './components/Home';
-import Card from './components/Card';
 import Category from './components/Category';
 import Bestseler from './components/Bestseler';
 import Account from './components/Account';
@@ -19,6 +16,7 @@ import LocalTreasuresPage from './components/Localtreasure';
 import PaymentPage from './components/Pay';
 import Outliveb1 from './components/Home_images/Outliveb1';
 import Launch_new from './components/Launch_new';
+import Wishlist from './components/Wishlist';
 
 
 
@@ -38,6 +36,7 @@ function App() {
     <Route path='/about' element={<About/>}/>
     <Route path='/localtreasure' element={<LocalTreasuresPage/>}/>
     <Route path='/cart' element={<CartPage/>}/>
+    <Route path='/wishlist' element={<Wishlist/>}/>
     <Route path='/review' element={<ReviewBlock/>}/>
     <Route path='/joinclub' element={<JoinClubPage/>}/>
     {/* <Route path='/cart' element={<CartProvider/>}/> */}
