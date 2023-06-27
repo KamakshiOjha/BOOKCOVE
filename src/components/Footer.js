@@ -1,6 +1,6 @@
 import React from 'react'
 import './Footer.css';
-import image2 from './image2.png';
+
 import { Link } from 'react-router-dom';
 
 export default function Footer() {
