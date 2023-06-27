@@ -14,7 +14,7 @@
     text-align: center;
 }
 .contain_bg {
-    background-image: url("/Users/kamakshiojha/Documents/web development/BOOKSHOP/src/components/image3.png");
+    /* background-image: url("/Users/kamakshiojha/Documents/web development/BOOKSHOP/src/components/image3.png"); */
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
