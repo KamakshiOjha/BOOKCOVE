@@ -59,7 +59,7 @@
     list-style-type: disc !important;
   }
   .circle {
-    width: 300px;
+    width: 400px;
     height: 300px;
     border-radius: 50%;
     background-image: url("./About_images/about1.jpg");
@@ -99,7 +99,7 @@
 
 
 .circle1 {
-    width: 300px;
+    width: 400px;
     height: 300px;
     border-radius: 50%;
     background-image: url("./About_images/about3.jpg");
@@ -120,7 +120,7 @@
     list-style-type: circle !important;
   }
   .circle2{
-    width: 300px;
+    width: 400px;
     height: 300px;
     border-radius: 50%;
     background-image: url("./About_images/about4.jpg");
@@ -138,7 +138,7 @@
     box-shadow: 0 0 20px rgba(0, 0, 0, 0.3);
   }
   .circle3 {
-    width: 300px;
+    width: 400px;
     height: 300px;
     border-radius: 50%;
     background-image:url("./About_images/about5.jpg");
