@@ -26,7 +26,7 @@ function LoginPage() {
     <>
     <div className="Heading4">
         <div className="heading_in4">
-            <p className="heading14"><Link to="">ACCOUNT</Link> </p>
+            <p className="heading14"><Link to="/account">ACCOUNT</Link> </p>
             <div className="hidden_log">
                 <p className="heading24"><Link to="">LOGIN</Link> </p>
             </div>

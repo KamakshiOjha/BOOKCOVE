@@ -7,7 +7,7 @@ export default function Launch_new() {
     <>
     <div className="Heading2_n">
         <div className="heading_in2_n">
-            <p className="heading12_n"><Link to="">HIDDEN GEMS</Link> </p>
+            <p className="heading12_n"><Link to="/launch_new">HIDDEN GEMS</Link> </p>
         </div>
     </div>
     <div className='in_launch'>

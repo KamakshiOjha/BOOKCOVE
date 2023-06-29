@@ -38,7 +38,7 @@ function ReviewBlock() {
        
        <div className="Heading4_r">
         <div className="heading_in4_r">
-            <p className="heading14_r"><Link to="">CUSTOMER REVIEW</Link> </p>
+            <p className="heading14_r"><Link to="/review">CUSTOMER REVIEW</Link> </p>
         </div>
     </div>
       <div className="login1">

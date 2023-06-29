@@ -135,7 +135,7 @@ function JoinClubPage() {
     <>
       <div className="Heading16">
         <div className="heading_in16">
-            <p className="heading16"><Link to="">JOIN CLUB</Link> </p>
+            <p className="heading16"><Link to="/joinclub">JOIN CLUB</Link> </p>
         </div>
     </div>
     <div className="middle16">

@@ -7,7 +7,7 @@ export default function About() {
     <>
      <div className="Heading7">
         <div className="heading_in7">
-            <p className="heading17"><Link to="">ABOUT US</Link> </p>
+            <p className="heading17"><Link to="/about">ABOUT US</Link> </p>
             <div className="hidden_log7">
                 <p className="heading27"><Link to="">BOOKCOVE</Link> </p>
             </div>

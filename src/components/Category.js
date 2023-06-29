@@ -13,7 +13,7 @@ export default function Category() {
     <>
      <div className="Heading1">
         <div className="heading_in1">
-            <p className="heading11"><Link to="">CATEGORY</Link> </p>
+            <p className="heading11"><Link to="/category">CATEGORY</Link> </p>
         </div>
     </div>
     <div>

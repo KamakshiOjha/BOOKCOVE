@@ -6,7 +6,7 @@ export default function Bestseler() {
     <>
     <div className="Heading2">
         <div className="heading_in2">
-            <p className="heading12"><Link to="">BEST SELLER</Link> </p>
+            <p className="heading12"><Link to="/bestseler">BEST SELLER</Link> </p>
         </div>
     </div>
     <div className="middle22">
@@ -45,7 +45,7 @@ export default function Bestseler() {
                 <img className="book02" src={require("./Bestseller/book2.png")}  alt=""/>
                 <div className="hide2">
                 <div className="hide_in2">
-                    <p className="para1_b2"><h3 className="h3_tag2">It Starts with Us</h3> </p>
+                    <p className="para1_b2"><h3 className="h3_tag2"><Link className="h3_tag2" to='/Itstartwithus'>It Starts with Us</Link></h3> </p>
                     <p className="para2_b2">₹859.25</p>
                 </div>
                 <p>by Colleen Hoover</p>

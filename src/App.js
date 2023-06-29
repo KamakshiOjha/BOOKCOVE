@@ -17,6 +17,7 @@ import PaymentPage from './components/Pay';
 import Outliveb1 from './components/Home_images/Outliveb1';
 import Launch_new from './components/Launch_new';
 import Wishlist from './components/Wishlist';
+import Itstartwithus from './components/Home_images/Itstartwithus';
 
 
 
@@ -47,6 +48,7 @@ function App() {
     <Route path='/biography' element={<Biography/>}/>
 
     <Route path='/outliveb1' element={<Outliveb1/>}/>
+    <Route path='/Itstartwithus' element={<Itstartwithus/>}/>
     </Routes>
     <Footer/>
     

@@ -68,7 +68,7 @@ function CartPage() {
     <div className="Heading7_c">
         <div className="heading_in7_c">
           <p className="heading17_c">
-            <Link to="">CART</Link>
+            <Link to="/cart">CART</Link>
           </p>
           {/* <div className="hidden_log7_c">
             <p className="heading27_c">

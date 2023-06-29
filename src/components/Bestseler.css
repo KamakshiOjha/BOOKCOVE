@@ -78,8 +78,8 @@
 .h3_tag2{
     /* outline: 1px solid #3e5e85!important; */
     font-size: 21px;
-    color: white;
     text-align: center;
+    color: white !important;
 }
 .box12 {
     background-color: black;

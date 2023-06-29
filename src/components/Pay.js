@@ -22,7 +22,7 @@ const PaymentPage = () => {
       <div className="Heading7_p">
         <div className="heading_in7_p">
           <p className="heading17_p">
-            <Link to="">PAYMENT INFORMATION</Link>
+            <Link to="/pay">PAYMENT INFORMATION</Link>
           </p>
           {/* <div className="hidden_log7_p">
             <p className="heading27_p">

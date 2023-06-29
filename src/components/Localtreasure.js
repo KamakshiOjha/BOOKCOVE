@@ -43,7 +43,7 @@ const LocalTreasuresPage = () => {
       <div className="Heading7_l">
         <div className="heading_in7_l">
           <p className="heading17_l">
-            <Link to="">LOCAL TREASURE</Link>{' '}
+            <Link to="/localtreasure">LOCAL TREASURE</Link>{' '}
           </p>
           <div className="hidden_log7_l">
             <p className="heading27_l">

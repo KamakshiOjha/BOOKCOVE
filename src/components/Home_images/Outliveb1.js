@@ -12,7 +12,7 @@ export default function Outliveb1() {
         <div className="coverpage_in">
             <img className="img_b" src={require("./BOOKS_FOR IN/book1.png")} alt=""/>
             <div className="about_content">
-                <p className="para1_b2"><h1 className="h3_tag2">Outlive: The Science and Art of Longevity</h1></p>
+                <p className="para1_b2"><h1 className="h3_tag2_o">Outlive: The Science and Art of Longevity</h1></p>
                     <h5 className="para2_b2">₹1555.50</h5>
                     <h5>by Peter Attia</h5>
                     {/* <p>⭐⭐⭐⭐⭐</p> */}
