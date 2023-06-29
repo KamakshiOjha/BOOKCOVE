@@ -36,7 +36,7 @@ export default function Navbar(props) {
                     <li><Link to="/bestseler">Best Seller</Link></li>
                     <li><Link to="/category">Category</Link></li>
                     {/* <li><Link to="">All Books</Link></li>  */}
-                    <li><Link to="">Author's </Link></li>
+                    <li><Link to="/author">Author's </Link></li>
                     <li><Link to="/joinclub">Join Club</Link></li>
                     {/* <li><Link to="">Audio Book</Link></li> */}
                     <li><Link to="/about">About Us</Link></li>

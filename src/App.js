@@ -18,6 +18,7 @@ import Outliveb1 from './components/Home_images/Outliveb1';
 import Launch_new from './components/Launch_new';
 import Wishlist from './components/Wishlist';
 import Itstartwithus from './components/Home_images/Itstartwithus';
+import Author from './components/Author';
 
 
 
@@ -42,6 +43,7 @@ function App() {
     <Route path='/joinclub' element={<JoinClubPage/>}/>
     {/* <Route path='/cart' element={<CartProvider/>}/> */}
     <Route path='/' element={<Home />}/>
+    <Route path='/author' element={<Author />}/>
     <Route path='/pay' element={<PaymentPage/>}/>
     <Route path='/launch_new' element={<Launch_new/>}/>
     <Route path='/children_literature' element={<Childern_literature/>}/>

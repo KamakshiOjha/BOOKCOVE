@@ -1,0 +1,65 @@
+.heading2_au {
+    margin-top: 180px;
+
+
+}
+
+.heading_in2_au {
+    padding: 1%;
+}
+
+.heading12_au{
+    font-size: 200px;
+    width: 100%;
+    align-content: center;
+    text-align: center;
+}
+.author-page {
+    text-align: center;
+    margin: 0% 2% 2% 2%;
+
+  }
+  .author-list {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    margin-top: 5vh;
+    margin-bottom: 5vh;
+
+  }
+  
+  .author-list > * {
+    flex-basis: calc(33.33% - 20px);
+    margin-bottom: 20px;
+  }
+  
+  
+  .author-item {
+    background-color: #2D4059;
+    color: white;
+    padding: 30px;
+    height: 55vh;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  }
+  .button_author {
+    background-color: black;
+    color: white;
+    padding: 10px 20px;
+    margin: 8% 0% 0% 0%;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+  }
+  
+  .button_author:hover {
+    background-color: #F4D3D3;
+    color: black;
+  }
+  .h3_author{
+    font-size: 30px;
+    overflow-y: hidden;
+  }
+  .p_author{
+    margin: 5% 0% 0% 0%;
+  }

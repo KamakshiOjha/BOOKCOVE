@@ -1,148 +1,26 @@
-.heading_in4_w{
-    padding: 1%;
-    width: 55vw;
-    margin: 0% 22% 0% 22%;
-  }
-  .heading14_w {
-    font-size: 70px;
-    width: 100%;
-    text-align: center;
-  }
- 
- .book-cover_w button {
-    padding: 8px 16px;
-    background-color: #4285f4;
-    color: #fff;
-    border: none;
-    border-radius: 4px;
-    cursor: pointer;
-  }
-  
-  .book-cover_W button:hover {
-    background-color: #1a73e8;
-  }
-  .flex_in_w{
-    display: flex;
-    flex-direction: row;
-    width: 17vw;
-    /* row-gap: 3%; */
-    /* gap: 1%; */
-    justify-content: space-between;
-}
-.discover2_W {
-    color: black;
-}
-
-.discover2_w:hover {
-    color: grey !important;
-}
-.hide2 .discover_w {
-    display: inline-block;
-    margin-top: 10px;
-    padding: 10px 20px;
-    background-color: #000;
-    color: #fff;
-    text-decoration: none;
-    font-weight: bold;
-    border-radius: 4px;
-    transition: background-color 0.3s;
-  }
-
-  .hide2_w .discover2_w:hover {
-    
-    background-color: #fff;
-    color: #000;
-  }
-  .wishlist-items_w{
-    text-align: center;
-  }
-  .book-covers_w{
-    margin: 1% 5% 5% 5%;
-    display: flex;
-    flex-direction: column;
-    /* gap: 3%; */
-  }
-
-
-  .box2_w {
-    position: relative;
-    overflow: hidden;
-    
-  }
-  .book2_w{
-    padding: 0%;
-    margin: 0% 5% 0% 5%;
-    width: 18vw;
-    height: 42vh;
-
+/* css taken from Cart */
+.heading7_w {
 
 }
-.book02_w{
-    padding: 0%;
-    margin: 8% 5% 0% 13%;
-    width: 18vw;
-    height: 42vh;
 
-
+.heading_in7_w {
+  padding: 1%;
+  width: 47vw;
+  margin: 0% 27% 0% 27% ;
 }
-.book02_w:hover img {
-    transform: scale(1.1);
-  }
 
-  .book2_w:hover img {
-    transform: scale(1.1);
-  }
-  .hide_in2_w{
-    display: flex;
-    flex-direction: column;
-    justify-content: space-between;
-    
-    width: 22vw;
-
-
+/* .heading17_w:hover {
+  display: none;
 }
-  .hide2_w {
-    position: absolute;
-    top: 0;
-    left: 0;
-    width: 28vw;
-    margin: 0% 5% 0% 5%;
-    height: 45vh;
-    background-color: rgba(0, 0, 0, 0.7);
-    color: #fff;
-    opacity: 0;
-    transition: opacity 0.3s;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    text-align: center;
-    padding: 5px;
-    row-gap: 1vw;
-  }
-
-  .box2_w:hover .hide2_w {
-    opacity: 1;
-  }
-
-  .hide2_w p {
-    margin: 2%;
-    font-size: 16px;
-  }
-
-  .hide2_w .discover2_w {
-    display: inline-block;
-    margin-top: 10px;
-    padding: 10px 20px;
-    background-color: #fff;
-    color: #000;
-    text-decoration: none;
-    font-weight: bold;
-    border-radius: 4px;
-    transition: background-color 0.3s;
-  }
-
-  .hide2_w .discover2:hover {
-    background-color: #000;
-    color: #fff;
-  } 
+ */
+.heading17_w {
+  font-size: 70px;
+  width: 100%;
+  text-align: center;
+}
+.block_w{
+text-align: center;
+}
+.wishlist-items{
+   
+}
