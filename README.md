@@ -1,4 +1,3 @@
-![alt text](https://ibb.co/xY8Bt17)
 # BOOKCOVE
 
 Welcome to BookCove, your ultimate online destination for book purchases, literary events, author interactions, and more!
