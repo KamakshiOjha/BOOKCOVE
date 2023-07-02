@@ -120,6 +120,7 @@ padding: 0% 1% 0% 1%;
 .image2_in{
   display: flex;
   flex-direction: column;
+  height: 65vh;
   margin: 6% 5% 2% 10%;
   
   background-color: aliceblue;
