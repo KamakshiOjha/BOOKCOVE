@@ -41,7 +41,7 @@ export default function Category() {
                 <img className="book1" src={require("./Category_book/history.jpg")} alt=""/>
                 <div className="hide1">
                 <p><h2>History</h2></p>
-                <Link to="#" className="discover1">Discover</Link>
+                <Link to="/history" className="discover1">Discover</Link>
             </div>
 
             </div>

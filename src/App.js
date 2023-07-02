@@ -19,6 +19,7 @@ import Launch_new from './components/Launch_new';
 import Wishlist from './components/Wishlist';
 import Itstartwithus from './components/Home_images/Itstartwithus';
 import Author from './components/Author';
+import History from './components/History';
 
 
 
@@ -48,7 +49,7 @@ function App() {
     <Route path='/launch_new' element={<Launch_new/>}/>
     <Route path='/children_literature' element={<Childern_literature/>}/>
     <Route path='/biography' element={<Biography/>}/>
-
+    <Route path='/history' element={<History/>}/>
     <Route path='/outliveb1' element={<Outliveb1/>}/>
     <Route path='/Itstartwithus' element={<Itstartwithus/>}/>
     </Routes>
