@@ -30,41 +30,41 @@ export default function Author() {
         },
           {
             id: 4,
-            name: 'Romance Book Club',
-            Genre: "Fiction, Romance, Thriller",
-            Influences:"Positive people. Good music. Author Tiffanie DeBartolo.",
-            description: 'Indulge in tales of love, passion, and heartwarming connections. Explore diverse romance subgenres, share favorite romantic moments, and connect with fellow hopeless romantics.',
+            name: 'J.K. Rowling',
+            Genre: "Fantasy",
+            Influences:"J.R.R. Tolkien, Jane Austen, Roald Dahl",
+            description: 'J.K. Rowling is best known for creating the Harry Potter series, which became a worldwide phenomenon. Her books combine elements of fantasy, adventure, and coming-of-age narratives, and have captivated readers of all ages.'
         },
         {
             id: 5,
-            name: 'Literary Gems Book Club',
-            Genre: "Fiction, Romance, Thriller",
-            Influences:"Positive people. Good music. Author Tiffanie DeBartolo.",
-            description: 'A vibrant book club for literature enthusiasts. Explore classic and contemporary literary works while engaging in thoughtful discussions.',
+            name: 'Stephen King',
+            Genre: "Horror, Thriller",
+            Influences:"H.P. Lovecraft, Edgar Allan Poe, Shirley Jackson",
+            description: 'Stephen King is a master of horror and suspense. His novels and short stories often delve into the darker aspects of human nature, blending supernatural elements with psychological realism. Many of his works have been adapted into successful films and television series.'
  
         },
           {
             id: 6,
-            name: 'Thriller Seekers Club',
-            Genre: "Fiction, Romance, Thriller",
-            Influences:"Positive people. Good music. Author Tiffanie DeBartolo.",
-            description: 'Dive into the thrilling world of suspense and mystery novels. Unravel gripping plots and join fellow readers in analyzing the twists and turns.',
+            name: 'Agatha Christie',
+            Genre: "Mystery, Crime",
+            Influences:"Arthur Conan Doyle, Dorothy L. Sayers, Edgar Allan Poe",
+            description: 'Agatha Christie is often referred to as the "Queen of Crime." Her novels and short stories featuring detectives such as Hercule Poirot and Miss Marple have become classics of the mystery genre. Christies intricate plots and skillful characterizations have made her one of the best-selling authors of all time.',
  
         },
           {
             id: 7,
-            name: 'Young Adult Adventures Club',
-            Genre: "Fiction, Romance, Thriller",
-            Influences:"Positive people. Good music. Author Tiffanie DeBartolo.",
-            description: 'Embark on exciting journeys through the realm of young adult fiction. Discover captivating stories, share favorite characters, and connect with fellow young adult literature enthusiasts.',
+            name: 'George R.R. Martin',
+            Genre: "Fantasy",
+            Influences:"J.R.R. Tolkien, Robert E. Howard, Jack Vance",
+            description: 'George R.R. Martin is known for his epic fantasy series, "A Song of Ice and Fire," which was adapted into the popular TV series "Game of Thrones." His books are characterized by intricate world-building, complex characters, and unpredictable plot twists.',
 
         },
           {
             id: 8,
-            name: 'Sci-Fi Explorers Society',
-            Genre: "Fiction, Romance, Thriller",
-            Influences:"Positive people. Good music. Author Tiffanie DeBartolo.",
-            description: 'Delve into the vast universe of science fiction. Discuss mind-bending concepts, futuristic technologies, and epic space sagas with fellow sci-fi fans.',
+            name: 'Haruki Murakami',
+            Genre: "Magical Realism, Literary Fiction",
+            Influences:"Franz Kafka, Fyodor Dostoevsky, Raymond Chandler",
+            description: 'Haruki Murakami is a Japanese author known for his unique blend of surrealism, melancholy, and philosophical musings. His novels often feature ordinary characters caught up in extraordinary and dreamlike situations. Murakamis works have gained international acclaim and have a dedicated following.',
  
         },
           {
@@ -77,34 +77,34 @@ export default function Author() {
         },
         {
             id: 10,
-            name: 'Crime Solvers Book Club',
-            Genre: "Fiction, Romance, Thriller",
-            Influences:"Positive people. Good music. Author Tiffanie DeBartolo.",
-            description: 'Dive into the thrilling world of crime and detective novels. Analyze clues, discuss gripping investigations, and connect with fellow crime fiction aficionados.',
+            name: 'Toni Morrison',
+            Genre: "Literary Fiction",
+            Influences:"William Faulkner, Gabriel García Márquez, Zora Neale Hurston",
+            description: ' Toni Morrison was a renowned American author and Nobel laureate. Her novels explore themes of race, identity, and the African American experience. Morrisons powerful storytelling and poetic prose have made her a significant voice in contemporary literature.',
 
           },
           {
             id: 11,
-            name: 'Historical Fiction Book Club',
-            Genre: "Fiction, Romance, Thriller",
-            Influences:"Positive people. Good music. Author Tiffanie DeBartolo.",
-            description: 'Explore captivating tales set in different historical periods. Dive into the past, discuss significant events, and connect with fellow history enthusiasts.',
+            name: 'Arundhati Roy',
+            Genre: "Literary Fiction, Non-fiction",
+            Influences:"Gabriel García Márquez, Toni Morrison, Mahasweta Devi",
+            description: ': Arundhati Roy gained international recognition with her debut novel, "The God of Small Things," which won the Booker Prize. Her writing often explores social and political issues in India, including caste, gender, and environmental activism. Roy powerful prose and thought-provoking narratives have made her a prominent voice in Indian literature.',
 
           },
           {
             id: 12,
-            name: 'Poetry Circle',
-            Genre: "Fiction, Romance, Thriller",
-            Influences:"Positive people. Good music. Author Tiffanie DeBartolo.",
-            description: 'Immerse yourself in the beauty of poetic expressions. Discuss famous poems, share original works, and connect with fellow poetry lovers.',
+            name: 'R.K. Narayan',
+            Genre: "Literary Fiction",
+            Influences:"Mulk Raj Anand, E.M. Forster, Leo Tolstoy",
+            description: 'R.K. Narayan is regarded as one of Indias greatest English-language writers. His novels, such as "Swami and Friends" and "The Guide," capture the essence of everyday life in South India. Narayans humorous and insightful storytelling, combined with his vivid portrayal of characters and settings, have made him an enduring figure in Indian literature.',
 
           },
           {
             id: 13,
-            name: 'Non-Fiction Explorers Club',
-            Genre: "Fiction, Romance, Thriller",
-            Influences:"Positive people. Good music. Author Tiffanie DeBartolo.",
-            description: 'Embark on a journey through the realm of non-fiction literature. Discuss thought-provoking topics, learn from informative books, and connect with fellow non-fiction enthusiasts.',
+            name: 'Amitav Ghosh',
+            Genre: "Historical Fiction, Literary Fiction",
+            Influences:"Gabriel García Márquez, Italo Calvino, V.S. Naipaul.",
+            description: 'Amitav Ghosh is known for his sweeping historical novels that explore themes of culture, identity, and colonialism. His acclaimed works include "The Shadow Lines" and the "Ibis Trilogy," which includes "Sea of Poppies," "River of Smoke," and "Flood of Fire." Ghoshs writing combines meticulous research with captivating storytelling, offering rich insights into Indias past.',
 
           },
       ];

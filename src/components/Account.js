@@ -35,7 +35,7 @@ function LoginPage() {
    
     <div className="login">
         <div className="login_in">
-            <p className="p_log">Need a BOOKCOVE account? <Link className="a_log" to="">Create an account</Link></p>
+            <p className="p_log">Need a BOOKCOVE account? <Link className="a_log" to="/create_account">Create an account</Link></p>
             <form onSubmit={handleSubmit}>
                 <div className="form_group1">
                   <label className="email" htmlFor="email">Email</label>

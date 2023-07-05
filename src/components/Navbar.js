@@ -31,6 +31,7 @@ export default function Navbar(props) {
     <>
      <div class="nav">
         <div class="nav_bar_fixed">
+            
             <div class="nav_left">
                 <ul class="ul">
                     <li><Link to="/bestseler">Best Seller</Link></li>

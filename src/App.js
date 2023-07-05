@@ -20,6 +20,7 @@ import Wishlist from './components/Wishlist';
 import Itstartwithus from './components/Home_images/Itstartwithus';
 import Author from './components/Author';
 import History from './components/History';
+import Create_account from './components/Create_account';
 
 
 
@@ -52,6 +53,8 @@ function App() {
     <Route path='/history' element={<History/>}/>
     <Route path='/outliveb1' element={<Outliveb1/>}/>
     <Route path='/Itstartwithus' element={<Itstartwithus/>}/>
+
+    <Route path='/create_account' element={<Create_account/>}/>
     </Routes>
     <Footer/>
     

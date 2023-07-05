@@ -505,3 +505,26 @@ padding: 1%;
         
     }
 } */
+@media screen and (max-width: 768px) {
+    /* Styles for screens with a maximum width of 768 pixels */
+    .nav_left ul,
+    .nav_right ul {
+      display: none;
+    }
+  
+    .nav_bar_fixed {
+      gap: 10px;
+    }
+  
+    .nav_bar_fixed .menu-toggle {
+      display: block;
+    }
+  
+    .nav_bar_fixed .menu-toggle .bar {
+      width: 25px;
+      height: 3px;
+      background-color: #000;
+      margin: 5px;
+    }
+  }
+  

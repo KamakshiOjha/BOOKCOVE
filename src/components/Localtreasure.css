@@ -61,12 +61,14 @@
   .input-field {
     padding: 5px;
     margin-right: 10px;
+    color: #000 !important;
     
   }
   .input_field_1 {
     padding: 5px;
     margin: 1% 0% 1% 0%;
     width: 23vw;
+    
   }
   .button_log_l {
     padding: 10px 20px;
