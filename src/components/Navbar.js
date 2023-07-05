@@ -8,25 +8,7 @@ import './Navbar.css';
 // import Card from './Card';
 
 export default function Navbar(props) {
-    // const [text, setText] = useState("");
-    // const click= ()=>{
-    //     console.log("handle click");
-    //     let newText;
-    //     if(newText==='community'){
-            
-    //     }
 
-    // }
-    // const [search, setsearch ]= useState("");
-    // const [bookData,setData] = useState([]);
-    // const searchBook=(event)=>{
-    //     if(event.key==="Enter"){
-    //         axios.get('https://www.googleapis.com/books/v1/volumes?q='+search+'&key=AIzaSyASV3TzrNaw2DkoIz19FfNd9V-Siup4jtM')
-    //         .then(res=>setData(res.data.items) )
-    //         .catch(err=>console.log(err))
-    //     }
-
-    // }
   return (
     <>
      <div class="nav">
