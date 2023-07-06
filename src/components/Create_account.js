@@ -29,45 +29,46 @@ const Create_account = () => {
             
         </div>
     </div>
-        <div className="login">
-        <div className="login_in">
+        <div className="login_s">
+        <div className="login_in_s">
         <h2 className='h2_s'>Create Your Account</h2>
         <form className='form_s' onSubmit={handleSubmit}>
           <label className='label_s'>
             Full Name:
-            <input
+          </label>
+          <input
               type="text"
               className='input_s'
               value={fullName}
               onChange={(e) => setFullName(e.target.value)}
               required
             />
-          </label>
   
-          <label>
+          <label className='label_s'>
             Email Address:
-            <input
+          </label>
+          <input
               type="email"
               className='input_s'
               value={email}
               onChange={(e) => setEmail(e.target.value)}
               required
             />
-          </label>
   
-          <label>
+          <label className='label_s'>
             Password:
-            <input
+          </label>
+          <input
               type="password"
               className='input_s'
               value={password}
               onChange={(e) => setPassword(e.target.value)}
               required
             />
-          </label>
   
-          <label>
+          <label className='label_s'>
             Confirm Password:
+            </label>
             <input
               type="password"
               className='input_s'
@@ -75,9 +76,8 @@ const Create_account = () => {
               onChange={(e) => setConfirmPassword(e.target.value)}
               required
             />
-          </label>
   
-          <button className='button_s ' type="submit">Sign Up</button>
+          <button className='button_log_s ' type="submit">Sign Up</button>
         </form>
       </div>
       </div>

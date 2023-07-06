@@ -19,28 +19,36 @@
   
   .h2_s {
     font-size: 20px;
-    margin-bottom: 30px;
-    color: white;
+    margin-bottom: 20px;
+    color: white !important;
   }
   
   .form_s {
     display: flex;
     flex-direction: column;
     align-items: center;
+
   }
   
   .label_s {
-    display: flex;
-    flex-direction: column;
+    /* display: flex;
+    flex-direction: column; */
     margin-bottom: 10px;
-    text-align: start;
+    text-align:left;
+
+    
+    color: white;
+    margin: 2% 0% 2% 2%;
   }
   
   .input_s {
     padding: 10px;
     border: 1px solid #ccc;
     border-radius: 4px;
-    width: 22vw;
+    width: 24vw;
+    height: 7vh;
+    color: white;
+    margin: 2%;
   }
   
   .button_s {
@@ -57,4 +65,31 @@
     background-color: #45a049;
   }
   
+  .login_s {
+    padding: 0% 1% 1% 1%;
+    text-align: center;
+    margin: 0% 30% 0% 32%;
+  }
   
+  .login_in_s {
+    background-color: #2D4059;
+    height: 85vh;
+    width: 33vw;
+    border-radius: 10px;
+    padding: 7%;
+    overflow-y: hidden;
+  }
+  .button_log_s {
+    padding: 10px 20px;
+    background-color: #FFF3E4;
+    color: black;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    margin: 2% 0% 5% 0%;
+  }
+  
+  .button_log_s:hover {
+    background-color: #6B4F4F;
+    color: #000;
+  }
