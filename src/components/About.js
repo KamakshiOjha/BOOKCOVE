@@ -25,7 +25,7 @@ export default function About() {
         <div className="content1">
             <h2 className="h2_tag03">ABOUT <Link to="/">BOOKCOVE</Link></h2>
             <p className="para03">Welcome to <Link to="/">BOOKCOVE</Link>, your go-to destination for all books!</p>
-            <p className="para13">At <Link to="/">BOOKCOVE</Link>, we believe that every book deserves a captivating cover. We are a passionate team of designers and book enthusiasts dedicated to helping authors and publishers create visually stunning and engaging book covers that captivate readers and reflect the essence of their stories.</p>
+            <p className="para13 list">At <Link to="/">BOOKCOVE</Link>, we believe that every book deserves a captivating cover. We are a passionate team of designers and book enthusiasts dedicated to helping authors and publishers create visually stunning and engaging book covers that captivate readers and reflect the essence of their stories.</p>
            
         </div>
         
