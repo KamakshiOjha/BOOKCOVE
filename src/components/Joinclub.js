@@ -144,7 +144,7 @@ function JoinClubPage() {
         </div>
     </div>
     <div className="join-club-page">
-      <h1>Join the club</h1>
+      <h1 className='h1_jc'>Join the club</h1>
       <p>Where Reading Comes to Life: Join the <Link to='/'>BOOKCOVE</Link> Club and Experience the Power of Connection, Expression, and Exploration!</p>
       <p >Are you ready to take your reading journey to the next level? Look no further than <Link to='/'>BOOKCOVE</Link>'s Exclusive Club—a vibrant community that celebrates the joy of books and the thrill of connecting with fellow literary enthusiasts.
 </p>
