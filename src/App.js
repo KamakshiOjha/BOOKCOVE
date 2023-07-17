@@ -26,6 +26,7 @@ import Create_account from './components/Create_account';
 
 
 
+
 function App() {
   return (
     <BrowserRouter >
@@ -51,6 +52,7 @@ function App() {
     <Route path='/children_literature' element={<Childern_literature/>}/>
     <Route path='/biography' element={<Biography/>}/>
     <Route path='/history' element={<History/>}/>
+
     <Route path='/outliveb1' element={<Outliveb1/>}/>
     <Route path='/Itstartwithus' element={<Itstartwithus/>}/>
 
