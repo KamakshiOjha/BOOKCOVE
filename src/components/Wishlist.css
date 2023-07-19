@@ -75,6 +75,10 @@ text-align: center;
 .image_w{
     border: 0;
     border-radius: 5%;
+    height: 39vh;
+    width: 17vw;
+
+    margin-left: 7%;
 }
 .button_author_wc {
     background-color: black;

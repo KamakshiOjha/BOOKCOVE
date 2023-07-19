@@ -180,9 +180,10 @@ padding: 0% 1% 0% 1%;
   padding: 0% 5% 2% 1%;
   margin: 0% 4% 0% 71%;
   width: 25vw;
+  font-size: 19px;
   
-
 }
+
 .heading2{
 
   padding: 0% 1% 0% 1%;
@@ -352,6 +353,7 @@ padding: 2%;
   padding: 1%;
   margin: 0% 0% 1% 5%;
   width: 30vw;
+  font-size: 19px;
   
 
 }
@@ -390,6 +392,7 @@ border-bottom: 2px solid black;
 }
 .para5{
   margin: 1% 0% 3% 25%;
+  font-size: 22px;
 }
 
 .bottom{

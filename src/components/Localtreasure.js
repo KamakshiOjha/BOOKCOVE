@@ -56,11 +56,11 @@ const LocalTreasuresPage = () => {
         <p>
           <h2>WHAT IS <Link to='/launch_new'>LOCAL TREASURE?</Link></h2>
         </p>
-        <p>
+        <p className='para_lt'>
           "Local Treasures" not only celebrates the hidden gems of Bookcove but also serves as a platform for supporting
           small authors and businesses in the literary world.
         </p>
-        <p>
+        <p className='para_lt'>
           At Bookcove, we take pride in our unwavering support for small authors and businesses, no matter the age or how
           small a business is, or even if it is just a beginning. We wholeheartedly embrace collaboration and offer a
           nurturing environment for new authors to flourish. Whether you're a budding writer or a small shop seeking to

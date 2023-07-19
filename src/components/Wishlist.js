@@ -55,19 +55,19 @@ function Wishlist() {
       </div>
       <div className='div_main_w'>
         <div className='div_w_1'>
-          <img className='image_w' src={require("./Category_book/bibliogrphy.jpg")} alt="Book Cover" />
+          <img className='image_w' src={require("./book1.png")} alt="Book Cover" />
           <button className='button_author_w' onClick={() => addToWishlist('Book 1', 19.99)}>Add to Wishlist</button>
         </div>
         <div className='div_w_2'>
-          <img className='image_w' src={require("./Category_book/bibliogrphy.jpg")} alt="Book Cover" />
+          <img className='image_w' src={require("./book2_w.png")} alt="Book Cover" />
           <button className='button_author_w' onClick={() => addToWishlist('Book 2', 24.99)}>Add to Wishlist</button>
         </div>
         <div className='div_w_1'>
-          <img className='image_w' src={require("./Category_book/bibliogrphy.jpg")} alt="Book Cover" />
+          <img className='image_w' src={require("./book3_w.png")} alt="Book Cover" />
           <button className='button_author_w' onClick={() => addToWishlist('Book 3', 19.99)}>Add to Wishlist</button>
         </div>
         <div className='div_w_2'>
-          <img className='image_w' src={require("./Category_book/bibliogrphy.jpg")} alt="Book Cover" />
+          <img className='image_w' src={require("./book4_w.png")} alt="Book Cover" />
           <button className='button_author_w' onClick={() => addToWishlist('Book 4', 24.99)}>Add to Wishlist</button>
         </div>
       </div>
