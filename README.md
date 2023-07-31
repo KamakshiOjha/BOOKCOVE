@@ -31,5 +31,4 @@ BookCove is an online book purchase website that offers a wide selection of best
 6. Manage your account, subscriptions, wishlists, and cart for a seamless shopping experience.
 7. Discover and support local businesses and emerging authors in the Local Treasures section.
 
-   
-[screencapture-localhost-3000-2023-07-31-21_13_09.pdf](https://github.com/KamakshiOjha/BOOKCOVE/files/12216751/screencapture-localhost-3000-2023-07-31-21_13_09.pdf)
+
